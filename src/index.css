@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.counter {
+  font-size: 10em;
+  font-weight: bold;
+  border-bottom: 2px solild black;
+}
+
+.increment,
+.decrement {
+  background: transparent;
+  border: none;
+  color: black;
+  font-size: 3em;
+  margin: 0 1em;
+}
+
+.increment {
+  color: red;
+}
+
+button:focus {
+  outline: none;
+}
+
+.color-one {
+  color: black;
+}
+
+.color-two {
+  color: red;
+}
